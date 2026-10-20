@@ -1,0 +1,25 @@
+# cached pages from the scraper -- hundreds of files, regenerate by re-running
+.dcourts_cache/
+.dcourts_cache2/
+
+# generated data
+judges_rows.csv
+judges_rows_classified.csv
+judges_summary.csv
+judges_sites.csv
+judges_unknown.csv
+judges_changes.csv
+spot*.csv
+
+# workbooks: input and output spreadsheets stay out of version control
+*.xlsx
+*.xlsm
+
+# run logs
+*.log
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
